@@ -1,0 +1,88 @@
+
+body {
+	background-color: black;
+}
+
+div.mainHeader  {
+	background-color:black;
+	margin-top: 100px;
+	
+}
+ 
+ div.music {
+	display: inline-block;
+	vertical-align: top;
+ }
+
+ div.logo {
+	margin-left: 50px;
+}
+
+
+div.sideBar {
+	display: inline-block;
+	position: fixed;
+}
+
+div.facebookLink {
+	margin-left: 50px;
+}
+
+
+.btn {
+	height: 40px;
+	width: 200px;
+	font-size: 20px;
+	background-color: white;
+	color:black;
+	border:none;
+	text-align: left;
+	font-family: "impact";
+	vertical-align: top;
+	margin-left: 50px;
+}
+
+.btn:hover {
+	background-color:gray;
+ 	color:white;
+	height: 40px;
+	width: 200px;
+	font-size: 20px;
+	text-align: left;
+	font-family: "impact";
+	margin-left: 50px;
+}
+
+b.contactHeaders {
+	color: white;
+	font-size: 30px;
+	position: absolute;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	margin-top: 15px;
+}
+
+p.contactInfo {
+	color:white;
+	font-size: 20px;
+	position: absolute;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+hr.lines {
+	width: 450px;
+	position: absolute;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	margin-top: 40px;
+}
+
+div.info {
+	padding: 50px;
+}
