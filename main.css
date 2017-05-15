@@ -1,4 +1,9 @@
 
+
+p {
+	color: white;
+}
+
 body {
 	background-color: black;
 }
@@ -25,7 +30,13 @@ div.sideBar {
 }
 
 div.facebookLink {
-	margin-left: 50px;
+	margin-left: 75px;
+	position: fixed;
+}
+
+div.instagramLink {
+	margin-left: 175px;
+	position: fixed;
 }
 
 
@@ -45,8 +56,8 @@ div.facebookLink {
 .btn:hover {
 	background-color:gray;
  	color:white;
-	height: 40px;
-	width: 200px;
+	height: 50px;
+	width: 210px;
 	font-size: 20px;
 	text-align: left;
 	font-family: "impact";
@@ -85,4 +96,45 @@ hr.lines {
 
 div.info {
 	padding: 50px;
+}
+
+h1 {
+	color: white;
+	font-size: 30px;
+}
+
+h2 {
+	color: gray;
+	font-size: 20px;
+}
+
+h3 {
+	color: white;
+	font-size: 25px;
+}
+
+div.box {
+	width: 600px;
+	height: 800px;
+	border: 2px;	
+}
+
+div.aboutText {
+	text-align: center;
+	padding-top: 50px;
+}
+
+#rotating-item-wrapper {
+    position: relative;
+    width: 640px;
+    height: 480px;
+	border: 50px;
+	border-color: white;
+}
+.rotating-item {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+
 }
