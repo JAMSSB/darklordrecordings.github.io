@@ -1,18 +1,52 @@
 body {
   margin: 2em;
   background: black;
-  color: white;
+  color: black;
 }
-aside {
-    background: grey; /* same color as selected state on site menu */
-    padding: 0.3em 1em;
-    border-radius: 3px;
-    color: black;
-    margin-bottom: 2em;
-}
+
 textarea {
   width: 100%;
 }
+
+.backButton {
+	float: left;
+	height: 40px;
+	width: 125px;
+	font-size: 20px;
+	background-color: rgb(255, 0, 0);
+	color:white;
+	border:1px;
+	border-radius: 8px;
+	text-align: center;
+	font-family: "impact";
+	vertical-align: top;
+	margin-left: 50px;
+}
+
+.backButton:hover {
+	float: left;
+	height: 40px;
+	width: 125px;
+	font-size: 20px;
+	background-color: rgb(175, 0, 0);
+	color:white;
+	border:1px;
+	border-radius: 8px;
+	text-align: center;
+	font-family: "impact";
+	vertical-align: top;
+	margin-left: 50px;
+}
+
+label.pure-group {
+	color: white;
+}
+
+h2 {
+	color: white;
+	size: 25px;
+}
+
 .content-head {
   font-weight: 400;
   text-transform: uppercase;
@@ -28,6 +62,7 @@ textarea {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
   background: rgb(28, 184, 65); /* this is a green */
 }
+
 .button-xlarge {
   font-size: 125%;
 }
