@@ -5,8 +5,9 @@ p {
 }
 
 body {
-	background-color: black;
+	background: black;
 }
+
 
 div.mainHeader  {
 	background-color:black;
@@ -26,17 +27,17 @@ div.mainHeader  {
 
 div.sideBar {
 	display: inline-block;
-	position: fixed;
+	position: absolute;
 }
 
 div.facebookLink {
 	margin-left: 75px;
-	position: fixed;
+	position: absolute;
 }
 
 div.instagramLink {
 	margin-left: 175px;
-	position: fixed;
+	position: absolute;
 }
 
 
@@ -96,6 +97,12 @@ hr.lines {
 
 div.info {
 	padding: 50px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	float: center;
+	width: 400px;
+	margin-top: 100px;
 }
 
 h1 {
@@ -108,10 +115,24 @@ h2 {
 	font-size: 20px;
 }
 
+
 h3 {
 	color: white;
 	font-size: 25px;
 }
+
+h4 {
+	color: white;
+	font-size: 35px;
+	text-align: center;
+}
+
+h5 {
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}
+
 
 div.box {
 	width: 600px;
@@ -121,7 +142,8 @@ div.box {
 
 div.aboutText {
 	text-align: center;
-	padding-top: 50px;
+	margin-top: 50px;
+	width: 400px;
 }
 
 #rotating-item-wrapper {
@@ -136,5 +158,10 @@ div.aboutText {
     position: absolute;
     top: 0;
     left: 0;
+}
 
+ul {
+	color: white;
+	font-size: 25px;
+	text-align: left;
 }
