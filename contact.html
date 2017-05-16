@@ -5,18 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="contact form example">
-  <title>Contact Form Example</title>
+  <title>Contact</title>
 </head>
 
 <body>
-  <h2 class="content-head is-center">Contact Us!</h2>
-  <aside>
-       <p>
-           We would <em>love</em> to hear from you! </p>
-           <p>Please use the <b><em>Contact Form</em></b>
-           to send us a message.
-       </p>
-   </aside>
+  	<div class="mainHeader">
+		<center><img src="Dark_Lord_Logo.jpg"
+		alt="Dark Lord Recordings" height="170" width="720"></center>
+		<hr align="center" width="450"></hr>
+	</div>
+  <center><h2>Contact Us!</h2></center>
 
 <!-- START HERE -->
    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
@@ -31,18 +29,18 @@
     <!-- change the form action to your script url -->
 
     <fieldset class="pure-group">
-      <label for="name">Name: </label>
+      <label for="name" class="pure-group">Name: </label>
       <input id="name" name="name" placeholder="Name" />
     </fieldset>
 
     <fieldset class="pure-group">
-      <label for="message">Message: </label>
+      <label for="message" class="pure-group">Message: </label>
       <textarea id="message" name="message" rows="10"
       placeholder="Type your email here..."></textarea>
     </fieldset>
 
     <fieldset class="pure-group">
-      <label for="email"><em>Your</em> Email Address:</label>
+      <label for="email" class="pure-group"><em>Your</em> Email Address:</label>
       <input id="email" name="email" type="email" value=""
       required placeholder="your.name@email.com"/>
       <span id="email-invalid" style="visibility:hidden">
@@ -50,11 +48,13 @@
     </fieldset>
 
 
+
     <button class="button-success pure-button button-xlarge">
       <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
 
   </form>
   </div>
+  
 
   <!-- Customise the Thankyou Message People See when they submit the form: -->
   <div style="display:none;" id="thankyou_message">
@@ -68,6 +68,10 @@
   <!-- <script data-cfasync="false" type="text/javascript"
   src="/form-submission-handler.js"></script> -->
 <!-- END -->
+
+  	<form action="index.html" method="get">
+		<button class="backButton">Back</button>
+	</form>
 
 </body>
 </html>
