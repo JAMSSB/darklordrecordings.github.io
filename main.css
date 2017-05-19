@@ -3,72 +3,25 @@ p {
 	color: white;
 }
 
-body {
+html, body {
+	margin:0;
+	padding: 0;
 	background: black;
+	font-family: helvetica;
 }
 
 
 div.mainHeader  {
-	background-color:black;
-	
-}
-
-div.logo {
-	display: inline-block;
-}
-
-form.buttonForm {
-	display: inline-block;
-	vertical-align: top;
-}
-
-.sidebar {
-	margin-left: 17%;
-}
-
-div.facebookLink {
-	margin-left: 15px;
-	position: relative;
-	display: inline-block;
-}
-
-div.instagramLink {
-	margin-left: 70px;
-	position: relative;
-	display: inline-block;
-}
-
-div.buttonArea {
-	display: inline-block;
-	vertical-align: top;
+	background-color: black;
 	height: 200px;
-	width: 65%;
-	position: static;
 }
-
-.btn {
-	height: 60px;
-	width: 220px;
-	font-size: 30px;
-	background-color: white;
-	color:black;
-	border-style: solid;
-	border-color: black;
-	border-width: 1px;
-	text-align: center;
-	font-family: "impact";
+.logo {
 	display: inline-block;
-}
-
-.btn:hover {
-	background-color:gray;
- 	color:white;
-	height: 60px;
-	width: 220px;
-	font-size: 30px;
-	text-align: center;
-	font-family: "impact";
-	display: inline-block;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 25%;
+	height: width*2;
 }
 
 b.contactHeaders {
@@ -111,34 +64,63 @@ div.info {
 	margin-top: 100px;
 }
 
-h1 {
+
+.topPageLinks {
 	color: white;
-	font-size: 30px;
+	font-size: 20px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px;
+	text-decoration: none;
 }
 
-h2 {
+div.services {
+	margin-top: 30px;
+}
+
+.servicesPictures {
+	display: inline-block;
+	margin: 50px;
+	vertical-align: top;
+	word-wrap: break-word;
+	width: 400px;
+}
+
+.topPageLinks:hover{
 	color: gray;
 	font-size: 20px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px;
+	text-decoration: none;
 }
 
-
-h3 {
-	color: white;
-	font-size: 25px;
-}
-
-h4 {
-	color: white;
-	font-size: 35px;
+div.buttonArea {
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 	text-align: center;
 }
 
-h5 {
-	font-size: 20px;
-	color: white;
-	text-align: center;
+div.socialMeida {
+	float: right;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	display: inline-block;
+
 }
 
+.socialMediaLogos {
+	height: 50px;
+	width: 50px;
+	margin-right: 10px;
+}
 
 div.box {
 	width: 600px;
@@ -164,8 +146,33 @@ div.aboutText {
     left: 0;
 }
 
-ul {
+h1 {
+	color: white;
+	font-size: 30px;
+
+}
+
+h2 {
+	font-size: 14px;
+	color: white;
+	word-wrap: break-word;
+}
+
+
+
+h3 {
 	color: white;
 	font-size: 25px;
-	text-align: left;
+}
+
+h4 {
+	color: white;
+	font-size: 35px;
+	text-align: center;
+}
+
+h5 {
+	font-size: 20px;
+	color: white;
+	text-align: center;
 }
