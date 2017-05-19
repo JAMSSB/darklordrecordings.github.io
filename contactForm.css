@@ -1,7 +1,8 @@
-body {
-  margin: 2em;
-  background: black;
-  color: black;
+html, body {
+	margin:0;
+	padding: 0;
+	background: black;
+	font-family: helvetica;
 }
 
 textarea {
@@ -71,4 +72,70 @@ button {
 }
 #name, #email {
   width: 50%;
+}
+
+.servicesPictures {
+	display: inline-block;
+	margin: 50px;
+	vertical-align: top;
+	word-wrap: break-word;
+	width: 400px;
+}
+
+.topPageLinks {
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px;
+	text-decoration: none;
+}
+
+.topPageLinks:hover{
+	color: gray;
+	font-size: 20px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px;
+	text-decoration: none;
+}
+
+div.buttonArea {
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+}
+
+div.socialMeida {
+	float: right;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	display: inline-block;
+
+}
+
+.socialMediaLogos {
+	height: 50px;
+	width: 50px;
+	margin-right: 10px;
+}
+
+div.mainHeader  {
+	background-color: black;
+	height: 200px;
+}
+.logo {
+	display: inline-block;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 25%;
+	height: width*2;
 }
