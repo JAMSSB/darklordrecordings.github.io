@@ -21,6 +21,7 @@ div.mainHeader  {
 	transform: translateY(-50%);
 	width: 25%;
 	height: width*2;
+	margin-left: 8%;
 }
 
 b.contactHeaders {
@@ -64,15 +65,7 @@ div.info {
 }
 
 
-.topPageLinks {
-	color: white;
-	font-size: 20px;
-	text-align: center;
-	display: inline-block;
-	vertical-align: top;
-	margin: 10px;
-	text-decoration: none;
-}
+
 
 div.services {
 	margin-top: 30px;
@@ -83,12 +76,22 @@ div.services {
 	margin: 50px;
 	vertical-align: top;
 	word-wrap: break-word;
-	width: 400px;
+	width: 500px;
+}
+
+.topPageLinks {
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px;
+	text-decoration: none;
 }
 
 .topPageLinks:hover{
 	color: gray;
-	font-size: 20px;
+	font-size: 25px;
 	text-align: center;
 	display: inline-block;
 	vertical-align: top;
@@ -99,14 +102,15 @@ div.services {
 div.buttonArea {
 	display: inline-block;
 	vertical-align: top;
-	width: 50%;
+	width: 36%;
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
 	text-align: center;
+	margin-right: 7%;
 }
 
-div.socialMeida {
+div.socialMedia {
 	float: right;
 	position: relative;
 	top: 50%;
