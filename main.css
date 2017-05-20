@@ -11,7 +11,7 @@ html, body {
 
 
 div.mainHeader  {
-	background-color: black;
+	background-color: rgb(10, 10, 10);
 	height: 200px;
 }
 .logo {
@@ -102,7 +102,7 @@ div.services {
 div.buttonArea {
 	display: inline-block;
 	vertical-align: top;
-	width: 36%;
+	width: 34%;
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
@@ -115,13 +115,13 @@ div.socialMedia {
 	top: 50%;
 	transform: translateY(-50%);
 	display: inline-block;
-
+	margin-right: 7%;
 }
 
 .socialMediaLogos {
 	height: 50px;
 	width: 50px;
-	margin-right: 10px;
+	margin-right: 30px;
 }
 
 div.box {
@@ -178,4 +178,3 @@ h5 {
 	color: white;
 	text-align: center;
 }
-
