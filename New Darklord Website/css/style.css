@@ -1,0 +1,319 @@
+/* Colors
+Main color: #0984e3
+Lighter shade: 
+Darker shade: 
+*/
+
+*, 
+body {
+    font-family: 'Muli', sans-serif;
+    font-size: 25px;
+    margin: 0;
+}
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: flex-start;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    align-items: center;
+}
+
+section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* --------H elements -------- */
+
+h2 {
+    margin-top: 50px;
+    font-size: 140%;
+    color: #0984e3;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #0984e3;
+    content: " ";
+    width: 100px;
+    margin: 20px auto;
+}
+
+h3 {
+    margin-bottom: 20px;
+    font-size: 120%;
+}
+
+/* --------- Icons ----------- */
+.icon-large {
+    font-size: 400%;
+    color: #0984e3;
+    overflow: hidden;
+}
+
+.icon-small {
+    font-size: 150%;
+    color: #606060;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.icon-footer {
+    font-size: 150%;
+}
+
+/* --------------------------- */
+/*           Header            */
+/* --------------------------- */
+
+header {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(9, 132, 227, 0.7)), to(rgba(9, 132, 227, 0.7))), url(img/header-photo.jpg);
+    background-image: linear-gradient(rgba(9, 132, 227, 0.7), rgba(9, 132, 227, 0.7)), url(img/header-photo.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    padding: 40px 40px 0 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+header .row {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 250px;
+}
+
+
+.header-logo img {
+    height: 100px;
+    width: auto;
+    margin: 0;
+}
+
+nav ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    list-style: none;
+}
+
+nav li {
+    margin-right: 30px;
+}
+
+nav a:link,
+nav a:visited {
+    text-decoration: none;  
+    padding-bottom: 5px;
+    color: #fff;
+    -webkit-transition:  border 0.5s, color 0.5s;
+    transition:  border 0.5s, color 0.5s;
+    border-bottom: 2px solid transparent;
+}
+
+nav a:hover,
+nav a:active {
+    color: #0b6cb7;
+    border-bottom: 2px solid #36a2f5; 
+}
+
+.showcase-text {
+    text-align: center;
+    width: 60%;
+    align-self: center;
+}
+
+.showcase-text h1 {
+    font-size: 200%;
+    color: #fff;
+    font-weight: 200;
+}
+
+/* --------------------------- */
+/*           Services          */
+/* --------------------------- */
+
+.section-services {
+    background-color: #f7f7f7;
+}
+
+.services {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.service {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    text-align: center;
+    margin: 50px 50px;
+    line-height: 145%;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px;  
+    -webkit-box-shadow: 0 2px 0 0 #e6e6e6;  
+    box-shadow: 0 2px 0 0 #e6e6e6;
+}
+
+.service p {
+    font-size: 80%;
+    font-weight: 300;
+    line-height: 145%;
+}
+
+/* --------------------------- */
+/*           Portfolio         */
+/* --------------------------- */
+
+.section-portfolio {
+    background-color: #fff;
+}
+
+.section-portfolio iframe {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+/* --------------------------- */
+/*           Quote             */
+/* --------------------------- */
+
+.section-quote {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/quote-photo.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/quote-photo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 800px;
+    justify-content: center;
+}
+
+.quote {
+    color: #fff;
+    width: 50%;
+    position: relative;
+}
+
+.quote blockquote {
+    font-weight: 200;
+    font-style: italic;
+    line-height: 145%;
+}
+
+.quote blockquote:before {
+    content: '"';
+    position: absolute;
+    top: -30px;
+    left: 0px;
+    font-size: 250%;
+}
+
+/* --------------------------- */
+/*           Info              */
+/* --------------------------- */
+
+.info {
+    margin: 50px 0 100px 0;
+}
+
+.info-part {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 25px;
+}
+
+.info-part p {
+    margin-top: 8px;
+}
+
+/* --------------------------- */
+/*           footer            */
+/* --------------------------- */
+
+footer {
+    background-color: #0984e3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+img.footer-logo {
+    height: 50px;
+    margin-left: 80px;
+}
+
+.social-media ul{
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-right: 80px;
+    justify-content: flex-end;
+}
+
+.social-media li {
+    margin-right: 20px;
+}
+
+.icon-facebook:link,
+.icon-facebook:visited {
+    color: #fff;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+.icon-facebook:hover,
+.icon-facebook:active {
+    color: #3b5999;
+}
+
+.icon-instagram:link,
+.icon-instagram:visited {
+    color: #fff;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+.icon-instagram:hover,
+.icon-instagram:active {
+    color: #e4405f;
+}
+
+/* Space */
