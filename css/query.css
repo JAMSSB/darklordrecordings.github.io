@@ -25,6 +25,8 @@
     
     header .row {  
         -ms-flex-direction: column; 
+        -webkit-box-orient: vertical; 
+        -webkit-box-direction: normal; 
         flex-direction: column;
         margin-bottom: 150px;
     }
@@ -33,7 +35,7 @@
     
     .header-logo img { height: 75px; }
     
-    .services { -ms-flex-direction: column; flex-direction: column; }
+    .services { -ms-flex-direction: column; -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-direction: column; }
     
     .service { width: 225px;}
     
