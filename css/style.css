@@ -90,7 +90,7 @@ header {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    height: 100vh;
+    height: 1000px;
     padding: 40px 40px 0 40px;
     display: -webkit-box;
     display: -ms-flexbox;
