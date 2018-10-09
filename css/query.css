@@ -17,19 +17,6 @@
     .service p {
         font-size: 90%;
     }
-    
-    img.footer-logo {
-        margin-left: 30px;
-        height: 40px;
-    }
-    
-    .social-media ul {
-        margin-right: 30px;
-    }
-    
-    .sticky-logo img {
-        margin-left: 50px;
-    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -62,86 +49,11 @@
     .quote blockquote{
         font-size: 80%;
     }
-    
-    .sticky {
-        flex-direction: column;
-        height: 120px;
-    }
-    
-    .sticky-logo img {
-        margin: 20px 0 0 0;
-    }
-    
-    .sticky nav {
-        margin-bottom: 10px;
-    }
-    
-    .sticky nav a:link,
-    .sticky nav a:visited {
-        padding: 0;
-        margin-bottom: 10px;
-        font-size: 110%;
-    }
 }
 
 @media only screen and (max-width: 480px) {
-    header {
-        height: 700px;
-    }
-    
-    .header-logo img {
-        height: 50px;
-    }
-    
-    .sticky nav a:link,
-    .sticky nav a:visited {
-        padding: 0;
-        margin-bottom: 10px;
-        font-size: 80%;
-    } 
-    
-    .showcase-text {
-        width: 100%;
-    }
-    
-    .showcase-text h1 {
-        font-size: 180%;
-        line-height: 145%;
-    }
-    
     .section-portfolio iframe {
-        height: 175px;
-        width: 275px;
+        width: 400px;
+        height: 200px;
     }
-    
-    .section-quote {
-        height: 600px;
-    }
-    
-    .quote {
-        width: 90%;
-    }
-    
-    .info {
-        margin: 20px 10px;
-    }
-    
-    .info-part p {
-        font-size: 80%;
-    }
-    
-    img.footer-logo {
-        height: 30px;
-        margin-left: 10px;
-    }
-    
-    .social-media ul {
-        margin-right: 10px;
-        padding: 0;
-    }
-    
-    .social-media li {
-        margin-right: 10px;
-    }
-    
 }
